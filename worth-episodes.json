@@ -1,7 +1,68 @@
-[
+
+  {
+    "episode_key": "diary-of-a-ceo--dr-rachel-rubin-hormones",
+    "show": "The Diary of a CEO",
+    "category": "health",
+    "title": "Dr. Rachel Rubin on women's hormones, sexual health & the orgasm gap",
+    "youtube_url": "https://www.youtube.com/watch?v=MM-Qhlxf1pM",
+    "published_date": "2026-06-01",
+    "date_scored": "2026-06-15",
+    "verdict": "Entertain",
+    "composite": 3.4,
+    "scores": {
+      "signal": 3,
+      "epistemic": 3,
+      "honesty": 3,
+      "actionability": 4,
+      "credibility": 4,
+      "independence": 3
+    },
+    "independence_gate": "pass",
+    "summary": "A credible sexual-medicine specialist delivers genuinely useful, actionable information — but it's stretched across ~107 minutes of ads, subscribe pleas, repetition, and host anecdotes. Worth a skim, not the full runtime.",
+    "worth_it_if": "you want a plain-language primer on perimenopause/menopause hormones, vaginal estrogen for UTI prevention, and why penetration ≠ orgasm for most women.",
+    "skip_if": "you already know HRT basics and pelvic-floor/clitoral anatomy, or you want hard citations for the headline stats.",
+    "independence_note": "gate passed — conflicts disclosed, no verdict cap",
+    "best_minutes": [
+      {
+        "start": 1544,
+        "end": 2310,
+        "label": "HRT four buckets, WHI misinterpretation, vaginal estrogen for UTI/GSM — the densest stretch"
+      },
+      {
+        "start": 714,
+        "end": 1140,
+        "label": "testosterone declines in your 30s; birth-control & GLP-1 libido effects"
+      },
+      {
+        "start": 3366,
+        "end": 3550,
+        "label": "the orgasm gap, clitoral adhesions, her published office-procedure data"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 122,
+        "end": 172,
+        "label": "subscribe pleas"
+      },
+      {
+        "start": 2726,
+        "end": 2850,
+        "label": "sponsor reads"
+      },
+      {
+        "start": 4470,
+        "end": 4650,
+        "label": "the ex-girlfriend anecdote (and its later rehash)"
+      }
+    ],
+    "red_flags": "Hyperbolic medical absolutes (\"better than Viagra\"); several headline stats stated without specific citation; one GLP-1 figure from her own unpublished survey (flagged, to her credit). Conflicts disclosed — no covert pitch.",
+    "method_note": "Real in-lane expertise and concrete takeaways, but heavy ad load, repetition, and anecdote-as-evidence keep it out of Invest."
+  },
   {
     "episode_key": "diary-of-a-ceo--grantham-crash-warning",
     "show": "The Diary of a CEO",
+    "category": "business",
     "title": "Billionaire's WARNING: I'm SELLING Everything. The Crash is Already Here!",
     "youtube_url": "https://www.youtube.com/watch?v=32u5T6lO8qk",
     "published_date": "2026-06-10",
@@ -22,16 +83,54 @@
     "skip_if": "You want hedged, uncertainty-aware forecasting rather than a confident contrarian's house view stated as fact.",
     "independence_note": "gate passed — Grantham discloses his SpaceX stake unprompted while forecasting SpaceX will itself fail to deliver, and sponsor reads are standard disclosed ads, not content-steering.",
     "best_minutes": [
-      {"start": 176, "end": 695, "label": "bubble mechanics and the case for AI as the biggest investment bubble in history"},
-      {"start": 781, "end": 1089, "label": "bonds explained from scratch, with real yield numbers"},
-      {"start": 4149, "end": 4904, "label": "sourced toxicology and fertility-decline data, with named studies"}
+      {
+        "start": 176,
+        "end": 695,
+        "label": "bubble mechanics and the case for AI as the biggest investment bubble in history"
+      },
+      {
+        "start": 781,
+        "end": 1089,
+        "label": "bonds explained from scratch, with real yield numbers"
+      },
+      {
+        "start": 4149,
+        "end": 4904,
+        "label": "sourced toxicology and fertility-decline data, with named studies"
+      }
     ],
     "skip_minutes": [
-      {"start": 120, "end": 173, "label": "subscribe plea"},
-      {"start": 2389, "end": 2512, "label": "Stan and Pipedrive ad reads"},
-      {"start": 3918, "end": 4045, "label": "HeyGen ad and 1% Diary merch plug"}
+      {
+        "start": 120,
+        "end": 173,
+        "label": "subscribe plea"
+      },
+      {
+        "start": 2389,
+        "end": 2512,
+        "label": "Stan and Pipedrive ad reads"
+      },
+      {
+        "start": 3918,
+        "end": 4045,
+        "label": "HeyGen ad and 1% Diary merch plug"
+      }
     ],
     "red_flags": "Several forecasts are stated as certainties rather than the probabilistic claims the underlying data supports — \"[Bitcoin] will certainly go to zero,\" sperm count \"on track to hit zero by 2045\" presented as settled rather than one projection, and a flat prediction that SpaceX will fail. No undisclosed conflicts identified; the SpaceX stake is openly disclosed.",
     "method_note": "Genuinely sourced toxicology material is offset by unhedged certainty on several market and demographic predictions, holding Epistemic Hygiene to a 2 and keeping the composite just above the Skip line — boundary case, re-score recommended."
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
