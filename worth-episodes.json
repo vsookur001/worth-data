@@ -1,40 +1,5 @@
 [
   {
-    "episode_key": "diary-of-a-ceo--dr-rachel-rubin-hormones",
-    "show": "The Diary of a CEO",
-    "title": "Dr. Rachel Rubin on women's hormones, sexual health & the orgasm gap",
-    "youtube_url": "https://www.youtube.com/watch?v=REPLACE_WITH_REAL_ID",
-    "published_date": "2026-06-01",
-    "date_scored": "2026-06-15",
-    "verdict": "Entertain",
-    "composite": 3.4,
-    "scores": {
-      "signal": 3,
-      "epistemic": 3,
-      "honesty": 3,
-      "actionability": 4,
-      "credibility": 4,
-      "independence": 3
-    },
-    "independence_gate": "pass",
-    "summary": "A credible sexual-medicine specialist delivers genuinely useful, actionable information — but it's stretched across ~107 minutes of ads, subscribe pleas, repetition, and host anecdotes. Worth a skim, not the full runtime.",
-    "worth_it_if": "you want a plain-language primer on perimenopause/menopause hormones, vaginal estrogen for UTI prevention, and why penetration ≠ orgasm for most women.",
-    "skip_if": "you already know HRT basics and pelvic-floor/clitoral anatomy, or you want hard citations for the headline stats.",
-    "independence_note": "gate passed — conflicts disclosed, no verdict cap",
-    "best_minutes": [
-      {"start": 1544, "end": 2310, "label": "HRT four buckets, WHI misinterpretation, vaginal estrogen for UTI/GSM — the densest stretch"},
-      {"start": 714, "end": 1140, "label": "testosterone declines in your 30s; birth-control & GLP-1 libido effects"},
-      {"start": 3366, "end": 3550, "label": "the orgasm gap, clitoral adhesions, her published office-procedure data"}
-    ],
-    "skip_minutes": [
-      {"start": 122, "end": 172, "label": "subscribe pleas"},
-      {"start": 2726, "end": 2850, "label": "sponsor reads"},
-      {"start": 4470, "end": 4650, "label": "the ex-girlfriend anecdote (and its later rehash)"}
-    ],
-    "red_flags": "Hyperbolic medical absolutes (\"better than Viagra\"); several headline stats stated without specific citation; one GLP-1 figure from her own unpublished survey (flagged, to her credit). Conflicts disclosed — no covert pitch.",
-    "method_note": "Real in-lane expertise and concrete takeaways, but heavy ad load, repetition, and anecdote-as-evidence keep it out of Invest."
-  },
-  {
     "episode_key": "diary-of-a-ceo--grantham-crash-warning",
     "show": "The Diary of a CEO",
     "title": "Billionaire's WARNING: I'm SELLING Everything. The Crash is Already Here!",
