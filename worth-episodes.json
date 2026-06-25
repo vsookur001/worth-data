@@ -9,14 +9,7 @@
     "date_scored": "2026-06-15",
     "verdict": "Entertain",
     "composite": 3.4,
-    "scores": {
-      "signal": 3,
-      "epistemic": 3,
-      "honesty": 3,
-      "actionability": 4,
-      "credibility": 4,
-      "independence": 3
-    },
+    "scores": {"signal": 3, "epistemic": 3, "honesty": 3, "actionability": 4, "credibility": 4, "independence": 3},
     "independence_gate": "pass",
     "summary": "A credible sexual-medicine specialist delivers genuinely useful, actionable information — but it's stretched across ~107 minutes of ads, subscribe pleas, repetition, and host anecdotes. Worth a skim, not the full runtime.",
     "worth_it_if": "you want a plain-language primer on perimenopause/menopause hormones, vaginal estrogen for UTI prevention, and why penetration ≠ orgasm for most women.",
@@ -45,14 +38,7 @@
     "date_scored": "2026-06-22",
     "verdict": "Entertain",
     "composite": 2.9,
-    "scores": {
-      "signal": 3,
-      "epistemic": 2,
-      "honesty": 3,
-      "actionability": 4,
-      "credibility": 3,
-      "independence": 4
-    },
+    "scores": {"signal": 3, "epistemic": 2, "honesty": 3, "actionability": 4, "credibility": 3, "independence": 4},
     "independence_gate": "pass",
     "summary": "Grantham's bubble-history framework and concrete diversification/toxin-screening advice are genuinely useful, and his sourced toxicology citations (Swan/Levine, Berkeley, Harvard/Mass General) are unusually rigorous for the format. But several headline predictions — Bitcoin \"will certainly go to zero,\" sperm count hitting zero by 2045, SpaceX's failure — are delivered as certainties the underlying data doesn't fully support, which is what keeps this out of Invest territory.",
     "worth_it_if": "You want a market-history lens on the current AI-valuation moment plus low-effort, concrete steps (diversification, toxin-screening apps).",
@@ -70,5 +56,29 @@
     ],
     "red_flags": "Several forecasts are stated as certainties rather than the probabilistic claims the underlying data supports — \"[Bitcoin] will certainly go to zero,\" sperm count \"on track to hit zero by 2045\" presented as settled rather than one projection, and a flat prediction that SpaceX will fail. No undisclosed conflicts identified; the SpaceX stake is openly disclosed.",
     "method_note": "Genuinely sourced toxicology material is offset by unhedged certainty on several market and demographic predictions, holding Epistemic Hygiene to a 2 and keeping the composite just above the Skip line — boundary case, re-score recommended."
+  },
+  {
+    "episode_key": "ted--how-the-internet-fact-checks-itself",
+    "show": "TED",
+    "category": "business",
+    "title": "How the Internet Fact-Checks Itself | Keith Coleman, Jay Baxter",
+    "youtube_url": "https://www.youtube.com/watch?v=W23KEEcFqTk",
+    "published_date": "2026-06-18",
+    "date_scored": "2026-06-25",
+    "verdict": "Entertain",
+    "composite": 3.7,
+    "scores": {"signal": 4, "epistemic": 4, "honesty": 4, "actionability": 1, "credibility": 5, "independence": 3},
+    "independence_gate": "pass",
+    "summary": "Community Notes' own architects give a substantive, well-engaged explanation of the bridging algorithm, sybil defenses, and the new AI-cowriting pilot, candidly conceding where it still breaks (niche-topic speed, occasional wrong notes, synthetic-media surge). But this is two X executives narrating the virtues of their own product on a friendly stage, with no independent or critical voice present, and there's nothing for a viewer to actually do with it.",
+    "worth_it_if": "you want a clear mental model of how Community Notes' bridging algorithm, anti-manipulation defenses, and human-AI cowriting pipeline actually work, told by the people who built it.",
+    "skip_if": "you're looking for outside scrutiny of X's claims, independent verification of the cited stats, or anything actionable for your own week.",
+    "independence_note": "gate passed — both speakers' employment at X is stated upfront and the company's interest in the topic is obvious, not hidden; this is disclosed promotional framing, not a concealed conflict, so it doesn't trip the cap.",
+    "best_minutes": [
+      {"start": 285, "end": 444, "label": "the bridging/surprising-agreement algorithm explained with the scatter-plot visualization"},
+      {"start": 780, "end": 866, "label": "sybil-attack defenses: phone verification, rater-similarity clustering, random-sample checks"},
+      {"start": 1107, "end": 1196, "label": "the AI-cowriting pilot: humans correcting AI notes as training data, RL from community feedback"}
+    ],
+    "red_flags": "Several headline stats (50% repost drop, note-doubling in four months) are stated without inline sourcing detail beyond naming the replicating institutions; no independent or skeptical voice is present to pressure-test the company's own claims about its own product's effectiveness. No undisclosed conflicts identified.",
+    "method_note": "Genuinely well-reasoned and self-critical for company-spokesperson content, but it's still company spokespeople grading their own product's homework, and there's nothing actionable for the viewer — composite sits right at the Entertain/Invest boundary (3.7 vs 4.0 cutoff); re-score independently before treating this as final."
   }
 ]
