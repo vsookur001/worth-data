@@ -1,0 +1,9 @@
+{
+  "_comment": "Maps show name -> last video_id that was successfully scored & published. check_new_episodes.py reads/writes this. Starts empty; first run on each channel will treat the most recent upload as 'new' once, then track forward from there.",
+  "last_seen": {
+    "The Diary of a CEO": "32u5T6lO8qk",
+    "Acquired": "7EUVr0-V6DA",
+    "My First Million": "6WAfCgjlcqU",
+    "All-In Podcast": "4j9RPGLENNI"
+  }
+}

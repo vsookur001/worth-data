@@ -1,0 +1,49 @@
+{
+  "channels": [
+    {
+      "show": "The Diary of a CEO",
+      "default_category": "business",
+      "handle": "@TheDiaryOfACEO",
+      "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+      "uploads_playlist_id": "UUGq-a57w-aPwyi3pW7XLiHw",
+      "min_duration_minutes": 20,
+      "notes": "Twice-weekly, ~60-90 min episodes."
+    },
+    {
+      "show": "Acquired",
+      "default_category": "business",
+      "handle": "@AcquiredFM",
+      "channel_id": "UCyFqFYfTW2VoIQKylJ04Rtw",
+      "uploads_playlist_id": "UUyFqFYfTW2VoIQKylJ04Rtw",
+      "min_duration_minutes": 30,
+      "notes": "Irregular, roughly monthly. Episodes run 3-4 hours -> large transcripts, higher per-episode scoring cost. Expect 'no new episode' most days."
+    },
+    {
+      "show": "My First Million",
+      "default_category": "business",
+      "handle": "@MyFirstMillionPod",
+      "channel_id": "UCyaN6mg5u8Cjy2ZI4ikWaug",
+      "uploads_playlist_id": "UUyaN6mg5u8Cjy2ZI4ikWaug",
+      "min_duration_minutes": 20,
+      "notes": "~2-3x/week, ~45-75 min."
+    },
+    {
+      "show": "All-In Podcast",
+      "default_category": "business",
+      "handle": "@allin",
+      "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+      "uploads_playlist_id": "UUESLZhusAkFfsNsApnjF_Cg",
+      "min_duration_minutes": 30,
+      "notes": "Weekly. Hosts have direct political/financial entanglements (campaign fundraising, policy advocacy) -- watch this show trip the Independence gate more often than the others."
+    },
+    {
+      "show": "The Game w/ Alex Hormozi",
+      "default_category": "business",
+      "handle": "@AlexHormozi",
+      "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "uploads_playlist_id": "UUUyDOdBWhC1MCxEjC46d-zw",
+      "min_duration_minutes": 15,
+      "notes": "IMPORTANT: this is Hormozi's main personal channel -- it also posts Shorts, Q&As, and non-podcast clips. min_duration_minutes is a crude filter to skip Shorts/clips; revisit after a week of real data."
+    }
+  ]
+}

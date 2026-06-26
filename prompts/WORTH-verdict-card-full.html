@@ -1,0 +1,158 @@
+<!--
+WORTH VERDICT CARD — FULL TEMPLATE (paste-ready)
+==================================================
+HOW TO USE:
+1. Run an episode through the scoring prompt in your Claude Project,
+   passing it this file as reference.
+2. Copy the filled HTML the model returns (it will already have these
+   {{SLOTS}} replaced with real values).
+3. In Ghost: new post -> add an "HTML" card -> paste the whole thing in.
+
+This card uses the shared classes (.wcard, .wrow, .tip, .wpill, .chip,
+etc.) injected site-wide via Settings -> Code Injection -> Site Header.
+It will NOT look right until that CSS is in place. It also expects the
+tooltip behavior (hover/focus -> .tipbox), which is pure CSS and needs
+no JS. The site-wide toggle JS in Code Injection -> Site Footer is only
+needed for LEADERBOARD rows, not for this standalone card.
+
+WHY THIS VERSION EXISTS:
+The original 5-dimension card (Evidence / Reasoning / Depth /
+Actionability / Signal) is replaced by the WORTH rubric's 6 dimensions,
+5 of which are weighted into the composite and the 6th (Independence)
+is a GATE that can cap the verdict regardless of the other 5. This
+template also adds the "Worth it if / Skip if" split, an explicit Red
+Flags callout, and hover/focus tooltips defining each dimension —
+all part of the public methodology, so the card should never assert
+more confidence than the rubric actually supports.
+
+SLOTS TO FILL (the scoring prompt fills these automatically):
+  {{VERDICT}}          Invest | Entertain | Skip | Actively Misleading
+  {{VERDICT_CHIP_BG}}  chip background — see VERDICT STYLES table below
+  {{VERDICT_CHIP_FG}}  chip text/icon color — see table below
+  {{VERDICT_ICON}}     ti-bookmark | ti-headphones | ti-player-skip-forward | ti-alert-triangle
+  {{COMPOSITE}}        e.g. "3.4" (one decimal)
+  {{BAND_LABEL}}        e.g. "entertain band (2.8-3.9)" — the matching band + range, for the line under the composite
+  {{SHOW}}             show name
+  {{EPISODE_TITLE}}    episode title
+  {{SUMMARY}}          the 2-3 sentence "bottom line" writeup
+  {{WORTH_IT_IF}}      one sentence: who/what this episode is for
+  {{SKIP_IF}}          one sentence: who should skip it / what's missing
+
+  -- six scored dimensions, in this fixed order --
+  {{SIGNAL_SCORE}} {{SIGNAL_PCT}}        Signal density        (0-5, score/5 as %)
+  {{EPISTEMIC_SCORE}} {{EPISTEMIC_PCT}}  Epistemic hygiene
+  {{HONESTY_SCORE}} {{HONESTY_PCT}}      Intellectual honesty
+  {{ACTION_SCORE}} {{ACTION_PCT}}        Actionability
+  {{CRED_SCORE}} {{CRED_PCT}}            Credibility
+  {{INDEP_SCORE}} {{INDEP_PCT}}          Independence (gate, not weighted)
+  -- bar color per row: use {{BAR_COLOR}} logic below, one per dimension --
+  {{SIGNAL_COLOR}} {{EPISTEMIC_COLOR}} {{HONESTY_COLOR}} {{ACTION_COLOR}} {{CRED_COLOR}}
+      -> #639922 if score >=4, #EF9F27 if score ==3, #888780 if score <=2
+  {{INDEP_COLOR}}
+      -> #639922 if score >=3 (gate passed), #888780 if score <=2 (gate capping the verdict)
+  {{INDEP_NOTE}}        one sentence: "gate passed - ..." OR "gate failed - capped at Skip/Misleading because ..."
+
+  {{BEST_MINUTES_HTML}}   one <div> per timestamp range — see example block below
+  {{SKIP_HTML}}           one <div> per skippable range (ads, filler, repetition) — same format, omit whole section if nothing notable to skip
+  {{RED_FLAGS}}           1-3 sentences: unsourced claims, undisclosed conflicts, hyperbole — or "None identified."
+  {{METHOD_NOTE}}         one italic sentence: the single biggest reason for the verdict
+  {{YOUTUBE_URL}}         canonical watch?v= URL
+
+VERDICT STYLES (use exactly, so every card + the leaderboard stay visually consistent):
+  Verdict              CHIP_BG    CHIP_FG    ICON
+  Invest                #E8F3DE   #2E7D32   ti-bookmark
+  Entertain             #FCEFD8   #B7791F   ti-headphones
+  Skip                  #F0F0F0   #757575   ti-player-skip-forward
+  Actively Misleading   #FBE4E4   #C0392B   ti-alert-triangle
+
+BAND LABELS (for {{BAND_LABEL}}, derived from {{COMPOSITE}} + the Independence gate):
+  Invest               composite >= 4.0 AND Epistemic >= 3 AND Independence >= 3   ->  "invest band (>=4.0)"
+  Entertain            composite 2.8-3.9 AND Independence >= 3                      ->  "entertain band (2.8-3.9)"
+  Skip                 composite < 2.8, OR Independence <= 2 (gate caps it here)    ->  "skip band (<2.8)"
+  Actively Misleading  Independence <= 2 AND Epistemic <= 2                          ->  "actively misleading — independence gate failed"
+
+If the Independence gate is what determined the verdict (score <=2), set {{BAND_LABEL}} to make
+that explicit rather than implying the composite alone decided it — e.g. "skip band — independence gate capped this verdict".
+-->
+
+<div class="wcard">
+
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px">
+    <div>
+      <div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:.04em;margin-bottom:3px">{{SHOW}}</div>
+      <div style="font-size:18px;font-weight:600;line-height:1.35">{{EPISODE_TITLE}}</div>
+    </div>
+    <div class="chip" style="background:{{VERDICT_CHIP_BG}};color:{{VERDICT_CHIP_FG}}"><i class="ti {{VERDICT_ICON}}" aria-hidden="true"></i>{{VERDICT}}</div>
+  </div>
+
+  <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:12px">
+    <span style="font-size:30px;font-weight:600;line-height:1">{{COMPOSITE}}</span>
+    <span style="font-size:15px;color:#999">/5</span>
+    <span style="font-size:12px;color:#777;margin-left:4px">composite · {{BAND_LABEL}}</span>
+  </div>
+
+  <p style="font-size:16px;line-height:1.6;margin:0 0 16px">{{SUMMARY}}</p>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:18px">
+    <div style="background:#fafafa;border-radius:10px;padding:10px 12px">
+      <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:#2e7d32;font-weight:600;margin-bottom:4px"><i class="ti ti-check" aria-hidden="true"></i>Worth it if</div>
+      <div style="font-size:13px;line-height:1.55;color:#555">{{WORTH_IT_IF}}</div>
+    </div>
+    <div style="background:#fafafa;border-radius:10px;padding:10px 12px">
+      <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:#999;font-weight:600;margin-bottom:4px"><i class="ti ti-x" aria-hidden="true"></i>Skip if</div>
+      <div style="font-size:13px;line-height:1.55;color:#555">{{SKIP_IF}}</div>
+    </div>
+  </div>
+
+  <div class="wsec">
+    <div style="font-size:13px;font-weight:600;margin-bottom:10px">How it scored <span style="font-size:11px;color:#999;font-weight:400">— hover a name for its definition</span></div>
+
+    <div class="wrow"><span class="wlbl"><span class="tip" tabindex="0">Signal density<i class="ti ti-info-circle ii" aria-hidden="true"></i><span class="tipbox" role="tooltip">Usable insight per minute. <b>5</b> = couldn't cut 10%. <b>1</b> = 80%+ is filler, ads, or rambling.</span></span></span><div class="wtrack"><div class="wfill" style="width:{{SIGNAL_PCT}};background:{{SIGNAL_COLOR}}"></div></div><span class="wval">{{SIGNAL_SCORE}}</span></div>
+
+    <div class="wrow"><span class="wlbl"><span class="tip" tabindex="0">Epistemic hygiene<i class="ti ti-info-circle ii" aria-hidden="true"></i><span class="tipbox" role="tooltip">How responsibly claims are made. <b>5</b> = sourced, evidence ≠ anecdote, uncertainty acknowledged. <b>1</b> = confident and unsourced.</span></span></span><div class="wtrack"><div class="wfill" style="width:{{EPISTEMIC_PCT}};background:{{EPISTEMIC_COLOR}}"></div></div><span class="wval">{{EPISTEMIC_SCORE}}</span></div>
+
+    <div class="wrow"><span class="wlbl"><span class="tip" tabindex="0">Intellectual honesty<i class="ti ti-info-circle ii" aria-hidden="true"></i><span class="tipbox" role="tooltip">Good-faith engagement. <b>5</b> = acknowledges trade-offs and unknowns, updates when challenged. <b>1</b> = sells certainty.</span></span></span><div class="wtrack"><div class="wfill" style="width:{{HONESTY_PCT}};background:{{HONESTY_COLOR}}"></div></div><span class="wval">{{HONESTY_SCORE}}</span></div>
+
+    <div class="wrow"><span class="wlbl"><span class="tip" tabindex="0">Actionability<i class="ti ti-info-circle ii" aria-hidden="true"></i><span class="tipbox" role="tooltip">Can you act on it. <b>5</b> = concrete steps you could use this week. <b>1</b> = vague inspiration. Scored, not penalized.</span></span></span><div class="wtrack"><div class="wfill" style="width:{{ACTION_PCT}};background:{{ACTION_COLOR}}"></div></div><span class="wval">{{ACTION_SCORE}}</span></div>
+
+    <div class="wrow"><span class="wlbl"><span class="tip" tabindex="0">Credibility<i class="ti ti-info-circle ii" aria-hidden="true"></i><span class="tipbox" role="tooltip">Standing on <b>this</b> topic, not fame. <b>5</b> = direct relevant expertise or results. <b>1</b> = borrowed authority outside their lane.</span></span></span><div class="wtrack"><div class="wfill" style="width:{{CRED_PCT}};background:{{CRED_COLOR}}"></div></div><span class="wval">{{CRED_SCORE}}</span></div>
+
+    <div style="border-top:1px solid #eee;margin:10px 0 8px"></div>
+
+    <div class="wrow"><span class="wlbl"><span class="tip" tabindex="0">Independence <span style="font-size:10px;color:#999">· gate</span><i class="ti ti-info-circle ii" aria-hidden="true"></i><span class="tipbox" role="tooltip">Freedom from undisclosed conflict. A <b>gate</b>, not a weighted score: anything ≤2 caps the verdict at Skip — a hidden pitch can't pass, however polished.</span></span></span><div class="wtrack"><div class="wfill" style="width:{{INDEP_PCT}};background:{{INDEP_COLOR}}"></div></div><span class="wval">{{INDEP_SCORE}}</span></div>
+    <div style="font-size:11px;color:#999;margin-left:152px">{{INDEP_NOTE}}</div>
+  </div>
+
+  <div class="wsec" style="margin-top:16px">
+    <div style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#2e7d32;margin-bottom:8px"><i class="ti ti-player-play" aria-hidden="true"></i>Best minutes</div>
+    <div style="display:flex;flex-direction:column;gap:6px;font-size:13px;line-height:1.5">
+      {{BEST_MINUTES_HTML}}
+      <!-- example of one row the prompt will generate, repeat per range:
+      <div><a href="{{YOUTUBE_URL}}&t=794s" class="wpill" style="text-decoration:none;color:#222">13:14</a>–<a href="{{YOUTUBE_URL}}&t=1480s" class="wpill" style="text-decoration:none;color:#222">24:40</a> &nbsp;one-line description of what's in this stretch</div>
+      -->
+    </div>
+  </div>
+
+  <!-- Optional: omit this whole .wsec block if nothing notable is skippable -->
+  <div class="wsec">
+    <div style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#999;margin-bottom:8px"><i class="ti ti-player-skip-forward" aria-hidden="true"></i>Skip</div>
+    <div style="display:flex;flex-direction:column;gap:6px;font-size:13px;line-height:1.5;color:#555">
+      {{SKIP_HTML}}
+      <!-- same row format as Best minutes, e.g.:
+      <div><a href="{{YOUTUBE_URL}}&t=122s" class="wpill" style="text-decoration:none;color:#222">2:02</a>–<a href="{{YOUTUBE_URL}}&t=172s" class="wpill" style="text-decoration:none;color:#222">2:52</a> &nbsp;subscribe plea</div>
+      -->
+    </div>
+  </div>
+
+  <div style="background:#fafafa;border-radius:10px;padding:10px 12px;margin-bottom:14px">
+    <div style="display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:#555;margin-bottom:4px"><i class="ti ti-flag" aria-hidden="true"></i>Red flags</div>
+    <div style="font-size:13px;line-height:1.55;color:#555">{{RED_FLAGS}}</div>
+  </div>
+
+  <div style="border-top:1px solid #eee;padding-top:10px;font-size:13px;font-style:italic;color:#666">{{METHOD_NOTE}}</div>
+
+  <p style="margin:14px 0 0">
+    <a href="{{YOUTUBE_URL}}" class="yt"><i class="ti ti-brand-youtube" aria-hidden="true"></i>Watch on YouTube</a>
+  </p>
+
+</div>
