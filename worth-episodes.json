@@ -1,0 +1,340 @@
+[
+  {
+    "episode_key": "diary-of-a-ceo--dr-rachel-rubin-hormones",
+    "show": "The Diary of a CEO",
+    "title": "Dr. Rachel Rubin on women's hormones, sexual health & the orgasm gap",
+    "youtube_url": "https://www.youtube.com/watch?v=REPLACE_WITH_REAL_ID",
+    "published_date": "2026-06-01",
+    "date_scored": "2026-06-15",
+    "verdict": "Entertain",
+    "composite": 3.4,
+    "scores": {
+      "signal": 3,
+      "epistemic": 3,
+      "honesty": 3,
+      "actionability": 4,
+      "credibility": 4,
+      "independence": 3
+    },
+    "independence_gate": "pass",
+    "summary": "A credible sexual-medicine specialist delivers genuinely useful, actionable information — but it's stretched across ~107 minutes of ads, subscribe pleas, repetition, and host anecdotes. Worth a skim, not the full runtime.",
+    "worth_it_if": "you want a plain-language primer on perimenopause/menopause hormones, vaginal estrogen for UTI prevention, and why penetration ≠ orgasm for most women.",
+    "skip_if": "you already know HRT basics and pelvic-floor/clitoral anatomy, or you want hard citations for the headline stats.",
+    "independence_note": "gate passed — conflicts disclosed, no verdict cap",
+    "best_minutes": [
+      {
+        "start": 1544,
+        "end": 2310,
+        "label": "HRT four buckets, WHI misinterpretation, vaginal estrogen for UTI/GSM — the densest stretch"
+      },
+      {
+        "start": 714,
+        "end": 1140,
+        "label": "testosterone declines in your 30s; birth-control & GLP-1 libido effects"
+      },
+      {
+        "start": 3366,
+        "end": 3550,
+        "label": "the orgasm gap, clitoral adhesions, her published office-procedure data"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 122,
+        "end": 172,
+        "label": "subscribe pleas"
+      },
+      {
+        "start": 2726,
+        "end": 2850,
+        "label": "sponsor reads"
+      },
+      {
+        "start": 4470,
+        "end": 4650,
+        "label": "the ex-girlfriend anecdote (and its later rehash)"
+      }
+    ],
+    "red_flags": "Hyperbolic medical absolutes (\"better than Viagra\"); several headline stats stated without specific citation; one GLP-1 figure from her own unpublished survey (flagged, to her credit). Conflicts disclosed — no covert pitch.",
+    "method_note": "Real in-lane expertise and concrete takeaways, but heavy ad load, repetition, and anecdote-as-evidence keep it out of Invest."
+  },
+  {
+    "episode_key": "diary-of-a-ceo--billionaires-warning-im-selling-the-crash-is-already-here",
+    "show": "The Diary of a CEO",
+    "category": "business",
+    "title": "Billionaire's WARNING: I'm SELLING. The Crash Is Already Here!",
+    "youtube_url": "https://www.youtube.com/watch?v=32u5T6lO8qk",
+    "published_date": "2026-06-25",
+    "date_scored": "2025-07-15",
+    "verdict": "Entertain",
+    "composite": 3.3,
+    "scores": {
+      "signal": 3,
+      "epistemic": 3,
+      "honesty": 3,
+      "actionability": 4,
+      "credibility": 4,
+      "independence": 4
+    },
+    "independence_gate": "pass",
+    "summary": "Jeremy Grantham — 60 years investing, $165B managed — makes his bubble case for AI-era US equities and pivots into a wide-ranging conversation on sperm-count decline, inequality, and social contract erosion. The core financial argument is historically grounded and the portfolio advice is unusually concrete for this show; the episode earns its runtime in patches but loses significant time to sponsor reads, a Claude-anecdote tangent, and host personal digressions.",
+    "worth_it_if": "You want a credible bear-case for US equities explained with historical precedent, or you're new to bonds and want the basics from scratch — skip to the timestamped segments.",
+    "skip_if": "You already know the bubble thesis and have a diversified non-US allocation; the new material on toxicity/fertility is real but thin relative to deeper dedicated episodes.",
+    "independence_note": "gate passed — sponsors are clearly labeled; Bartlett discloses SpaceX investment when challenged (not proactively, but disclosed); Grantham has no undisclosed financial stake in his recommendations.",
+    "best_minutes": [
+      {
+        "start": 285,
+        "end": 417,
+        "label": "Why the biggest bubbles form around the best ideas — railroads, internet, Amazon's 92% crash"
+      },
+      {
+        "start": 1144,
+        "end": 1521,
+        "label": "Sell-side incentive structure and the Society of Analysts story: 99% privately knew a bear market was coming"
+      },
+      {
+        "start": 3611,
+        "end": 3730,
+        "label": "Concrete portfolio allocation: 60% non-US broad index, bonds, 5–10% precious metals"
+      },
+      {
+        "start": 4139,
+        "end": 4791,
+        "label": "Sperm count decline data, Swan study, Harvard pesticide fertility trial, and actionable app recommendations (Yuka, EWG, Think Dirty)"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 120,
+        "end": 171,
+        "label": "Subscribe plea"
+      },
+      {
+        "start": 2389,
+        "end": 2517,
+        "label": "Stan Store and Pipedrive sponsor reads"
+      },
+      {
+        "start": 1873,
+        "end": 2083,
+        "label": "Off-topic Claude/AI anecdote tangent — mildly interesting but adds no signal"
+      },
+      {
+        "start": 3918,
+        "end": 4047,
+        "label": "HeyGen sponsor and 1% Diaries product plug"
+      }
+    ],
+    "red_flags": "Bitcoin-to-zero stated as certainty with no mechanism given. Swan's 2045 median-sperm-zero projection presented without noting it is a contested linear extrapolation. Bartlett reads several US statistics from a prepared sheet with no source attribution. SpaceX investment not disclosed proactively — only when directly challenged.",
+    "method_note": "Grantham's documented bubble-calling track record and willingness to cite specific verifiable historical data points lift this above typical guru content, but the episode's sprawl across five loosely connected topics and mid-tier epistemic hygiene outside finance keep the composite firmly in Entertain territory — the best segments are genuinely worth watching at 1.5x.",
+    "ghost_url": "https://brain-worthy.ghost.io/the-diary-of-a-ceo-billionaires-warning-im-selling-the-crash-is-already-here/"
+  },
+  {
+    "episode_key": "acquired--the-walt-disney-company-part-one",
+    "show": "Acquired",
+    "category": "business",
+    "title": "The Walt Disney Company: The most successful enterprise for monetizing human nostalgia (Audio)",
+    "youtube_url": "https://www.youtube.com/watch?v=7EUVr0-V6DA",
+    "published_date": "2026-06-23",
+    "date_scored": "2025-07-15",
+    "verdict": "Invest",
+    "composite": 4.1,
+    "scores": {
+      "signal": 4,
+      "epistemic": 4,
+      "honesty": 5,
+      "actionability": 3,
+      "credibility": 4,
+      "independence": 5
+    },
+    "independence_gate": "pass",
+    "summary": "A 4+ hour archival deep-dive into Disney from 1901 to 1984, built on primary research including time in the Disney corporate archives, the 1940 IPO prospectus, original contracts, and the 1958 WSJ flywheel article. The hosts trace the IP flywheel business model from Steamboat Willie through Disneyland's financing and the post-Walt creative collapse, with specific financial figures at each stage. Signal density is high for the runtime; the framework is coherent, well-sourced, and intellectually honest about Walt's failures and moral failings.",
+    "worth_it_if": "You care about business model history, IP flywheel dynamics, or the strategic logic behind entertainment companies — or you want a rigorous alternative to the hagiographic Disney documentaries.",
+    "skip_if": "You're looking for quick takeaways or operational playbooks; the value here is in the accumulated narrative argument, not discrete action items.",
+    "independence_note": "gate passed — four sponsors (JP Morgan, Vercel, ServiceNow, Statsig) all clearly labeled as discrete breaks; Disney provided archive access but the content includes candid treatment of the strike, HUAC testimony, Song of the South, and the creative bankruptcy of the 1970s.",
+    "best_minutes": [
+      {
+        "start": 3360,
+        "end": 3900,
+        "label": "The three-part IP flywheel framework articulated clearly: great IP → wide distribution → ancillary nodes; why animated IP beats live-action structurally"
+      },
+      {
+        "start": 5940,
+        "end": 6480,
+        "label": "Snow White financing, production scale (2M sketches, 250K cells), and the first movie soundtrack — birth of the vault strategy"
+      },
+      {
+        "start": 9000,
+        "end": 9600,
+        "label": "Disneyland financing via ABC: why the third-place network said yes, the FCC freeze creating a government-protected TV oligopoly, and the deal structure"
+      },
+      {
+        "start": 14820,
+        "end": 15300,
+        "label": "1984 financials: parks at $250M operating income vs. film at $2.2M — quantifying the creative collapse; Seven Powers and quintessence analysis"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 2490,
+        "end": 2646,
+        "label": "JP Morgan / Bill sponsor read"
+      },
+      {
+        "start": 4980,
+        "end": 5046,
+        "label": "Vercel sponsor read"
+      },
+      {
+        "start": 9060,
+        "end": 9167,
+        "label": "ServiceNow sponsor read"
+      },
+      {
+        "start": 11280,
+        "end": 11376,
+        "label": "Statsig sponsor read"
+      },
+      {
+        "start": 15180,
+        "end": 15480,
+        "label": "Carveouts (shoes, YouTube channels, new car, SF Symphony) — personal interest only"
+      }
+    ],
+    "red_flags": "None identified. Hosts flag unverifiable family lore explicitly, distinguish archival sourcing from secondary sources, and acknowledge when they are editorializing. Disney cooperated with research but this did not visibly soften the treatment of the company's failures.",
+    "method_note": "Original archival research (IPO prospectus, actual contracts, internal annual reports), consistent sourcing discipline, and candid treatment of Walt's failures and moral record lift this well above narrative-biography podcasting — the composite lands just above the Invest threshold at 4.1, which is appropriate given the limited direct actionability.",
+    "ghost_url": "https://brain-worthy.ghost.io/acquired-the-walt-disney-company-the-most-successful-enterprise-for-monetizing-human-nostalgia-audio/"
+  },
+  {
+    "episode_key": "my-first-million--the-anonymous-investor-who-became-a-billionaire-with-just-3-stocks",
+    "show": "My First Million",
+    "category": "business",
+    "title": "The anonymous investor who became a billionaire with just 3 stocks",
+    "youtube_url": "https://www.youtube.com/watch?v=6WAfCgjlcqU",
+    "published_date": "2026-06-24",
+    "date_scored": "2025-07-15",
+    "verdict": "Skip",
+    "composite": 2.75,
+    "scores": {
+      "signal": 3,
+      "epistemic": 2,
+      "honesty": 3,
+      "actionability": 3,
+      "credibility": 3,
+      "independence": 5
+    },
+    "independence_gate": "pass",
+    "summary": "Sam Parr and Shaan Puri riff across four loosely connected topics: Nick Sleep's 'shared scale economies' investing framework (the headline segment), a Lloyd Blankfein day-trading anecdote, a David Rubenstein biography sketch, and a PSA/credence-goods business model breakdown. Two of these segments contain genuine, reusable mental models — but the episode is padded with banter, tangents, and a vintage denim hobby detour that consumes roughly 40% of runtime. Epistemic standards are soft throughout: illustrative numbers stand in for real data, a company is misidentified, and Masa Son is described as Korean.",
+    "worth_it_if": "You're unfamiliar with Nick Sleep's shared-scale-economies lens or the credence-goods / trust-tax business model pattern — jump directly to those segments.",
+    "skip_if": "You already know these frameworks, or you want sourced analysis rather than smart-generalist riffing; the conversational errors and filler cost more than they're worth at full speed.",
+    "independence_note": "gate passed — one HubSpot sponsor read clearly labeled at ~8:30; no undisclosed financial conflicts identified.",
+    "best_minutes": [
+      {
+        "start": 820,
+        "end": 1280,
+        "label": "Nick Sleep's 'shared scale economies' framework: how Costco and Amazon pass savings to customers to compound trust, loyalty, and market share — and why surplus passed on is an invisible metric traditional analysts miss"
+      },
+      {
+        "start": 2340,
+        "end": 3005,
+        "label": "PSA / credence goods breakdown: what a trust-tax business model is, why dominant third-party grading compounds via network effects, and where else you could build one"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 0,
+        "end": 384,
+        "label": "Korean dopamine-app banter — zero signal, purely comedic"
+      },
+      {
+        "start": 510,
+        "end": 544,
+        "label": "HubSpot sponsor read"
+      },
+      {
+        "start": 1481,
+        "end": 2340,
+        "label": "Lloyd Blankfein anecdote — entertaining but thin; the day-trading-while-avoiding-Netflix-subscription observation doesn't generalize"
+      },
+      {
+        "start": 3005,
+        "end": 3348,
+        "label": "Vintage denim tangent and outro banter — pure hobby chat, no business signal"
+      }
+    ],
+    "red_flags": "Masa Son described as 'a Korean guy who lives in Japan' — he is Japanese, of Korean descent. Flat Iron Health and an ad-tech company conflated in a muddled exchange about Nat Turner's exit history ($40M vs $2B figures applied inconsistently across two different companies). All key numbers — Costco savings estimates, PSA queue math — are back-of-envelope illustrations, not actual reported figures. No sourcing for the Nick Sleep letters beyond general attribution.",
+    "method_note": "The composite of 2.75 lands just 0.05 below the Entertain floor (2.8) — this is a boundary call, but the Epistemic score of 2 (factual errors, illustrative numbers presented as analysis, no source discipline) is the correct anchor; the two good segments are genuinely worth skipping to directly, which makes the full-runtime verdict Skip rather than Entertain.",
+    "ghost_url": "https://brain-worthy.ghost.io/my-first-million-the-anonymous-investor-who-became-a-billionaire-with-just-3-stocks/"
+  },
+  {
+    "episode_key": "all-in-podcast--gamestop-ceo-ryan-cohen-56b-plan-ebay",
+    "show": "All-In Podcast",
+    "category": "business",
+    "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+    "youtube_url": "https://www.youtube.com/watch?v=4j9RPGLENNI",
+    "published_date": "2026-06-23",
+    "date_scored": "2025-07-15",
+    "verdict": "Skip",
+    "composite": 2.4,
+    "scores": {
+      "signal": 3,
+      "epistemic": 2,
+      "honesty": 2,
+      "actionability": 2,
+      "credibility": 3,
+      "independence": 3
+    },
+    "independence_gate": "pass",
+    "summary": "Ryan Cohen makes his public case for acquiring eBay, covering Chewy's origin, the GameStop turnaround, and a three-pillar eBay strategy ($2B cost-cut, live commerce, in-game digital marketplace). The operational self-criticism is genuine — he admits the Chewy playbook at GameStop was 'really really stupid' — and the eBay diagnosis is directionally accurate. But the episode is structurally a bid-advocacy interview: eBay management is caricatured, the strategic claims go unsourced ($400B live-commerce TAM, in-game marketplace framing), legitimate risks of the deal are never engaged, and the us-vs-them framing crowds out real analysis.",
+    "worth_it_if": "You want to hear a credible activist investor articulate a turnaround thesis in plain language, or you're tracking the GameStop/eBay story and want Cohen's framing directly from him.",
+    "skip_if": "You want an honest assessment of the deal's risks, a critical evaluation of Cohen's eBay strategy, or anything beyond the acquirer's own advocacy; the host offers almost no pushback.",
+    "independence_note": "gate passed — Cohen's financial stake in the eBay bid is fully disclosed by the premise of the interview; AppLovin and Nasdaq sponsor reads are clearly labeled. Conflict is real but transparent.",
+    "best_minutes": [
+      {
+        "start": 1140,
+        "end": 1320,
+        "label": "Chewy pivot from jewelry to pet food: why recurring revenue and market fragmentation were the signal — one of the cleaner origin-story business insights in the episode"
+      },
+      {
+        "start": 1200,
+        "end": 1340,
+        "label": "Supplier negotiation philosophy: 'if suppliers are sending gifts, we're overpaying; if they never want to speak to us again, we're getting the right price'"
+      },
+      {
+        "start": 2667,
+        "end": 3010,
+        "label": "eBay post-COVID metrics: GMV down, active users down 30M, opex over half of revenue — the factual diagnosis of stagnation before the advocacy kicks in"
+      },
+      {
+        "start": 2640,
+        "end": 3180,
+        "label": "Three-pillar eBay strategy: $2B cost-cut, live commerce, in-game digital marketplace — the most concrete strategic content in the episode"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 63,
+        "end": 66,
+        "label": "AppLovin sponsor read"
+      },
+      {
+        "start": 1566,
+        "end": 1578,
+        "label": "Nasdaq sponsor read"
+      },
+      {
+        "start": 0,
+        "end": 720,
+        "label": "Chewy founder mythology — surface-level origin story; skip if you know it or can read it faster"
+      },
+      {
+        "start": 3360,
+        "end": 3777,
+        "label": "Us-vs-them monologue on media bias and why 'everyone wants GameStop to fail' — emotive advocacy with no analytical content"
+      }
+    ],
+    "red_flags": "Live-commerce TAM of '$400 billion' stated with no source. In-game digital marketplace framed as obvious and inevitable with no acknowledgment of Valve's Steam Marketplace, publisher restrictions on item trading, or prior failed attempts. eBay management characterized as people who have 'never broken out a sweat in their entire lives' — rhetorical attack substituting for engagement with their actual counter-arguments. The financing structure (50% stock) is never scrutinized: Cohen deflects the all-cash question without explaining why it's structurally impossible or undesirable. Host offers no meaningful pushback throughout.",
+    "method_note": "A bid-advocacy interview where the bidder is articulate and his operational credibility is real, but the format — and Cohen's obvious financial stake — means legitimate deal risks, eBay's structural headwinds, and the strategic assumptions underpinning the thesis are never stress-tested; epistemic hygiene and intellectual honesty both score 2, which correctly anchors the composite at 2.4.",
+    "ghost_url": "https://brain-worthy.ghost.io/all-in-podcast-gamestop-ceo-ryan-cohens-56b-plan-to-take-over-ebay/"
+  }
+]
