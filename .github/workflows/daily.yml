@@ -1,0 +1,42 @@
+name: WORTH daily pipeline
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily -- adjust to your timezone preference
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write   # needed to commit worth-episodes.json and data/state.json back
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install youtube-transcript-api --break-system-packages
+
+      - name: Run pipeline
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
+          GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_FROM_EMAIL: ${{ secrets.NOTIFY_FROM_EMAIL }}
+          NOTIFY_TO_EMAIL: ${{ secrets.NOTIFY_TO_EMAIL }}
+          NOTIFY_THRESHOLD: "3.7"
+        run: python scripts/run_pipeline.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "worth-bot"
+          git config user.email "actions@github.com"
+          git add worth-episodes.json data/state.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Daily WORTH update: $(date -u +%Y-%m-%d)"
+          git push
