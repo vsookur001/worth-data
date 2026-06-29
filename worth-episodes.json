@@ -453,5 +453,86 @@
     "red_flags": "Two statistics are presented as fact with no basis: '20% of the industry' uses ex-cons as movers, and 'it happens in 25% of moves' (damage/breakage). Both are deployed as sales script talking points and appear improvised. Neither is sourced or flagged as an estimate. The advice itself isn't undermined by these figures, but listeners shouldn't repeat them as real data.",
     "method_note": "Solid operator-level tactics in a narrow service-business context, but the reality TV format imposes ~30% narrative overhead and the two invented statistics prevent a higher Epistemic score.",
     "ghost_url": "https://brain-worthy.ghost.io/the-game-w-alex-hormozi-8-entrepreneurs-compete-for-100-000-episode-1/"
+  },
+  {
+    "episode_key": "diary-of-a-ceo--womens-fitness-expert-dieting-exercise-dr-stephanie-estima",
+    "show": "The Diary of a CEO",
+    "category": "health",
+    "title": "Women's Fitness Expert: What You NEED To Know About Dieting & Exercise | Dr. Stephanie Estima",
+    "youtube_url": "https://www.youtube.com/watch?v=HwVn3WMv5oI",
+    "published_date": "2026-06-29",
+    "date_scored": "2025-07-11",
+    "verdict": "Entertain",
+    "composite": 3.5,
+    "scores": {
+      "signal": 3,
+      "epistemic": 3,
+      "honesty": 4,
+      "actionability": 4,
+      "credibility": 4,
+      "independence": 5
+    },
+    "independence_gate": "pass",
+    "summary": "A credible, practically-minded chiropractor makes a genuinely useful case for strength training and adequate fuelling over the 'pursuit of skinny,' with concrete reps/sets targets, a supplement stack with doses, and anatomy-informed coaching cues for women. The 95+ minute runtime is diluted by subscribe pleads, four sponsor reads, and physical demos that don't survive the audio format \u2014 the signal is real but unevenly distributed.",
+    "worth_it_if": "You're a woman (or training one) who wants specific, actionable guidance on lifting, nutrition, supplements, and why women's anatomy shapes exercise selection \u2014 especially if you're in perimenopause or postpartum.",
+    "skip_if": "You already know progressive overload, eat sufficient protein, and aren't confused by carb/fasting myths \u2014 the conceptual ground is familiar and the full runtime won't add much.",
+    "independence_note": "gate passed \u2014 all conflicts disclosed: host co-invests in Cometeer, guest co-owns ketone brand (both flagged on-air); three additional sponsor reads are clearly labelled.",
+    "best_minutes": [
+      {
+        "start": 181,
+        "end": 1154,
+        "label": "Four female fitness archetypes + the 'pursuit of skinny' framing \u2014 the conceptual core"
+      },
+      {
+        "start": 1215,
+        "end": 2195,
+        "label": "Six myth busts: carbs, bulking, long fasts, post/pre-workout fueling \u2014 most practical segment"
+      },
+      {
+        "start": 2195,
+        "end": 2822,
+        "label": "Q angle anatomy, women-specific squat cues, ACL/deceleration risk, PCOS training guidance"
+      },
+      {
+        "start": 2942,
+        "end": 3378,
+        "label": "Supplement stack with doses: magnesium, omega-3, D3+K2, creatine, collagen, electrolytes"
+      },
+      {
+        "start": 3640,
+        "end": 4014,
+        "label": "Sprinting for VO2 max, Norwegian 4x4 protocol, postmenopausal study on mitochondrial gains"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 116,
+        "end": 170,
+        "label": "Subscribe plea #1"
+      },
+      {
+        "start": 1470,
+        "end": 1487,
+        "label": "Subscribe plea #2"
+      },
+      {
+        "start": 2822,
+        "end": 2942,
+        "label": "Fiverr Pro + Cometeer sponsor reads"
+      },
+      {
+        "start": 4404,
+        "end": 4531,
+        "label": "Eight Sleep + Pipedrive sponsor reads"
+      },
+      {
+        "start": 4770,
+        "end": 5690,
+        "label": "Book promo, sex-chapter anecdote, brief GLP-1 aside, God/legacy closing \u2014 low-density wrap"
+      }
+    ],
+    "red_flags": "The '97\u201398% of women can't bulk' claim is stated without a citation. The Norwegian 4\u00d74 study figures (69% vs 49% mitochondrial efficiency gains) are specific but unreferenced. Collagen benefits for joints/tendons are presented with more confidence than the evidence base strictly supports. Host's Cometeer investment and guest's ketone co-ownership both disclosed on-air \u2014 noted, not hidden.",
+    "method_note": "Strong credibility and actionability from a practitioner with real skin-in-the-game, held to Entertain by a diluted runtime and a handful of confident claims that outrun their sourcing.",
+    "ghost_url": "https://brain-worthy.ghost.io/the-diary-of-a-ceo-womens-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima/"
   }
 ]
