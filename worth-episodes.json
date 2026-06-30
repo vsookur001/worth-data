@@ -534,5 +534,127 @@
     "red_flags": "The '97\u201398% of women can't bulk' claim is stated without a citation. The Norwegian 4\u00d74 study figures (69% vs 49% mitochondrial efficiency gains) are specific but unreferenced. Collagen benefits for joints/tendons are presented with more confidence than the evidence base strictly supports. Host's Cometeer investment and guest's ketone co-ownership both disclosed on-air \u2014 noted, not hidden.",
     "method_note": "Strong credibility and actionability from a practitioner with real skin-in-the-game, held to Entertain by a diluted runtime and a handful of confident claims that outrun their sourcing.",
     "ghost_url": "https://brain-worthy.ghost.io/the-diary-of-a-ceo-womens-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima/"
+  },
+  {
+    "episode_key": "my-first-million--3-weird-businesses-doing-10m-20m-30m",
+    "show": "My First Million",
+    "category": "business",
+    "title": "3 weird businesses doing $10M, $20M, $30M",
+    "youtube_url": "https://www.youtube.com/watch?v=OXgqzF382o8",
+    "published_date": "2026-06-30",
+    "date_scored": "2025-07-14",
+    "verdict": "Entertain",
+    "composite": 2.9,
+    "scores": {
+      "signal": 3,
+      "epistemic": 2,
+      "honesty": 3,
+      "actionability": 4,
+      "credibility": 3,
+      "independence": 3
+    },
+    "independence_gate": "pass",
+    "summary": "Three real-business founders walk through their $10M/$20M/$30M companies (real estate magazine, campground roll-up, copy-trade fintech), and the hosts pull out genuine tactics on customer retention, client tiering, and hiring. But the third segment \u2014 a financial product pitching copy-trading Nancy Pelosi's stock picks \u2014 coasts on unverified performance claims and breezy investment advice, dragging down the epistemic quality of the whole episode.",
+    "worth_it_if": "You want a fast gut-check on three non-obvious business models and are happy to extract the concrete retention and hiring frameworks from the first two guests.",
+    "skip_if": "You need rigorous investment or business analysis \u2014 the Autopilot segment's performance claims are unverified, and most of the runtime is casual conversation rather than structured insight.",
+    "independence_note": "HubSpot sponsor and Hampton community sourcing both disclosed on-air. No undisclosed equity stakes identified in any of the three featured businesses.",
+    "best_minutes": [
+      {
+        "start": 600,
+        "end": 1140,
+        "label": "Haven Lifestyles magazine business \u2014 model, unit economics (25% margin on $10M), and hosts coach on retention, top-100 customer calls, and client tiering framework"
+      },
+      {
+        "start": 1200,
+        "end": 1980,
+        "label": "Team Outsider campground roll-up \u2014 SBA acquisition playbook, OPCO vs. third-party management decision, and culture-at-scale advice (Chipotle comp model, UPS store hospitality contest)"
+      },
+      {
+        "start": 3060,
+        "end": 3540,
+        "label": "Hiring frameworks: specific job specs, outside interview committees, two talent pools (done-it-before vs. diamonds-in-rough), and how to calibrate yourself as an interviewer"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 589,
+        "end": 617,
+        "label": "HubSpot sponsor read"
+      },
+      {
+        "start": 0,
+        "end": 200,
+        "label": "Extended banter about red chairs, crotch shots, bodegas \u2014 scene-setting with no business content"
+      },
+      {
+        "start": 3540,
+        "end": 4063,
+        "label": "Closing segment: hosts reflect on abundance mindset and root-for-everybody philosophy \u2014 motivational filler"
+      }
+    ],
+    "red_flags": "Autopilot CEO cites Nancy Pelosi's '240% returns over 3 years vs. SPY's ~30\u201340%' as a live pitch point with only a boilerplate SEC disclaimer \u2014 no discussion of survivorship bias, the legal/ethical murkiness of trading on congressional disclosures, or whether those returns are audited. Leopold Aschenbrenner fund-size figures ($5B AUM, '10x in two years') are stated as casual conversation with no sourcing. The episode broadly normalises putting '10\u201320% of net worth' into high-risk copy-trade portfolios without any risk disclosure beyond a passing 'most people should just invest in index funds.'",
+    "method_note": "The first two business segments deliver genuine operator insight and concrete frameworks, but the Autopilot segment's unverified financial performance claims and loosely dispensed investment advice pull the epistemic score to 2, keeping this in the Entertain band despite solid actionability.",
+    "ghost_url": "https://brain-worthy.ghost.io/my-first-million-3-weird-businesses-doing-10m-20m-30m/"
+  },
+  {
+    "episode_key": "all-in-podcast--nate-silver-predicts-democrats-house-newsom-aoc-2028",
+    "show": "All-In Podcast",
+    "category": "politics",
+    "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+    "youtube_url": "https://www.youtube.com/watch?v=ihq_ngvKKmc",
+    "published_date": "2026-06-29",
+    "date_scored": "2025-07-14",
+    "verdict": "Entertain",
+    "composite": 3.4,
+    "scores": {
+      "signal": 3,
+      "epistemic": 3,
+      "honesty": 4,
+      "actionability": 2,
+      "credibility": 5,
+      "independence": 4
+    },
+    "independence_gate": "pass",
+    "summary": "Nate Silver walks through the LA election mechanics, Democratic Party factions, and his probabilistic takes on the 2026 midterms (~85% Democrats take the House, ~40-45% Senate) and 2028 field (Newsom fading, AOC his actual bet). The forecasting substance is real and Silver is careful about uncertainty \u2014 but the first 10 minutes is pure Knicks banter, and outside of prediction markets there's nothing to act on.",
+    "worth_it_if": "You follow US elections closely and want a credentialed forecaster's probabilistic read on 2026 and 2028 without having to read through a full Silver Bulletin piece.",
+    "skip_if": "You want actionable insight or are looking for deep policy analysis; this is punditry at a higher epistemic standard than most, but it's still punditry.",
+    "independence_note": "gate passed \u2014 two clearly labeled sponsor reads (Northwest Registered Agent, Claude.ai); Poly Market disclosed as 'favorite partner' at close; Silver Bulletin self-promo is transparent guest plugging.",
+    "best_minutes": [
+      {
+        "start": 610,
+        "end": 1464,
+        "label": "LA election mechanics, mail-in voting explained, CA partisanship as structural gravity"
+      },
+      {
+        "start": 1509,
+        "end": 2426,
+        "label": "Democratic faction breakdown (left / abundance libs / resistance libs), Newsom's decline, 2028 field including AOC bet"
+      },
+      {
+        "start": 2991,
+        "end": 3305,
+        "label": "2026 midterm predictions: House ~85-90% D, Senate closer to 50/50, correlation of outcomes explained"
+      }
+    ],
+    "skip_minutes": [
+      {
+        "start": 0,
+        "end": 579,
+        "label": "Knicks playoff banter and betting recap \u2014 entertaining but zero election signal"
+      },
+      {
+        "start": 37,
+        "end": 68,
+        "label": "Northwest Registered Agent sponsor read"
+      },
+      {
+        "start": 1464,
+        "end": 1509,
+        "label": "Claude Note Pro sponsor read"
+      }
+    ],
+    "red_flags": "Jason Calacanis's framing of the LA election leans toward implying fraud ('doesn't feel like a real election') and Silver appropriately pushes back, but the host's repeated leading questions give the segment a slanted setup. Poly Market is promoted as 'our favorite partner' at the close without explicit paid-partnership disclosure. Several Silver statistics cited without sources (Obama 57% independent approval, Biden 20%, age-40 capitalism cut point).",
+    "method_note": "Silver's genuine credibility and epistemic care lift this above typical punditry, but a 10-minute Knicks cold open, low actionability, and several unsourced data points keep it firmly in the Entertain band.",
+    "ghost_url": "https://brain-worthy.ghost.io/all-in-podcast-nate-silver-predicts-democrats-take-the-house-newsom-is-fading-aoc-might-win-it-all-in-2028/"
   }
 ]
